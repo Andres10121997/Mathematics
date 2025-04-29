@@ -14,10 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Andrés Felipe Sagredo Bromberg")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c19c27bd29651cbd6d1133f178b30610affd62a0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ae5f8248df6c3efb1cccae4a96118cb5ac6d4c3e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Mathematics")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Mathematics")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
+[assembly: System.Reflection.AssemblyMetadataAttribute("RepositoryUrl", "https://github.com/Andres10121997/Mathematics")]
 [assembly: System.Resources.NeutralResourcesLanguageAttribute("en")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.

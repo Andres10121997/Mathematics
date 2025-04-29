@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Mathematics</id>
+    <version>1.0.0</version>
+    <title>Mathematics</title>
+    <authors>Andrés Felipe Sagredo Bromberg</authors>
+    <description>Package Description</description>
+    <repository type="git" url="https://github.com/Andres10121997/Mathematics" commit="ae5f8248df6c3efb1cccae4a96118cb5ac6d4c3e" />
+    <dependencies>
+      <group targetFramework="net9.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\andre\OneDrive\Escritorio\Proyecto\Mathematics\bin\Debug\net9.0\Mathematics.dll" target="lib\net9.0\Mathematics.dll" />
+  </files>
+</package>

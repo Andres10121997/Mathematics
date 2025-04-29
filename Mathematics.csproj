@@ -8,6 +8,12 @@
     <Title>Mathematics</Title>
     <NeutralLanguage>en</NeutralLanguage>
     <Authors>Andrés Felipe Sagredo Bromberg</Authors>
+    <RepositoryUrl>https://github.com/Andres10121997/Mathematics</RepositoryUrl>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <SignAssembly>True</SignAssembly>
+    <PackageTags>Mathematics; Statistics</PackageTags>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -17,5 +23,12 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
     <FileAlignment>8192</FileAlignment>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
