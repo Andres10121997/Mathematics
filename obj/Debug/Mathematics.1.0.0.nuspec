@@ -5,13 +5,18 @@
     <version>1.0.0</version>
     <title>Mathematics</title>
     <authors>Andrés Felipe Sagredo Bromberg</authors>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="file">LICENSE</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
     <description>Package Description</description>
-    <repository type="git" url="https://github.com/Andres10121997/Mathematics" commit="ae5f8248df6c3efb1cccae4a96118cb5ac6d4c3e" />
+    <tags>Mathematics Statistics</tags>
+    <repository type="git" url="https://github.com/Andres10121997/Mathematics" commit="a4ba568388db857f487d3c6449907b33cbe4655f" />
     <dependencies>
       <group targetFramework="net9.0" />
     </dependencies>
   </metadata>
   <files>
     <file src="C:\Users\andre\OneDrive\Escritorio\Proyecto\Mathematics\bin\Debug\net9.0\Mathematics.dll" target="lib\net9.0\Mathematics.dll" />
+    <file src="C:\Users\andre\OneDrive\Escritorio\Proyecto\Mathematics\LICENSE" target="\LICENSE" />
   </files>
 </package>
