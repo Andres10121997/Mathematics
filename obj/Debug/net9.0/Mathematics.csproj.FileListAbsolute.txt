@@ -1,0 +1,12 @@
+C:\Users\andre\OneDrive\Escritorio\Proyecto\Mathematics\bin\Debug\net9.0\Mathematics.deps.json
+C:\Users\andre\OneDrive\Escritorio\Proyecto\Mathematics\bin\Debug\net9.0\Mathematics.dll
+C:\Users\andre\OneDrive\Escritorio\Proyecto\Mathematics\bin\Debug\net9.0\Mathematics.pdb
+C:\Users\andre\OneDrive\Escritorio\Proyecto\Mathematics\obj\Debug\net9.0\Mathematics.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\andre\OneDrive\Escritorio\Proyecto\Mathematics\obj\Debug\net9.0\Mathematics.AssemblyInfoInputs.cache
+C:\Users\andre\OneDrive\Escritorio\Proyecto\Mathematics\obj\Debug\net9.0\Mathematics.AssemblyInfo.cs
+C:\Users\andre\OneDrive\Escritorio\Proyecto\Mathematics\obj\Debug\net9.0\Mathematics.csproj.CoreCompileInputs.cache
+C:\Users\andre\OneDrive\Escritorio\Proyecto\Mathematics\obj\Debug\net9.0\Mathematics.dll
+C:\Users\andre\OneDrive\Escritorio\Proyecto\Mathematics\obj\Debug\net9.0\refint\Mathematics.dll
+C:\Users\andre\OneDrive\Escritorio\Proyecto\Mathematics\obj\Debug\net9.0\Mathematics.pdb
+C:\Users\andre\OneDrive\Escritorio\Proyecto\Mathematics\obj\Debug\net9.0\ref\Mathematics.dll
+C:\Users\andre\OneDrive\Escritorio\Proyecto\Mathematics\obj\Debug\net9.0\Mathematics.sourcelink.json
