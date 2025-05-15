@@ -11,7 +11,7 @@
     <readme>README.md</readme>
     <description>Package Description</description>
     <tags>Mathematics Statistics</tags>
-    <repository type="git" url="https://github.com/Andres10121997/Mathematics" commit="dd05c5d62c0ccf4f52f55fdeba1cb2228f1c37b2" />
+    <repository type="git" url="https://github.com/Andres10121997/Mathematics" commit="83fddad256a183d100cb948b3daf1b252a0b36f4" />
     <dependencies>
       <group targetFramework="net9.0" />
     </dependencies>
@@ -19,6 +19,6 @@
   <files>
     <file src="C:\Users\andre\OneDrive\Escritorio\Proyecto\Mathematics\bin\Debug\net9.0\Mathematics.dll" target="lib\net9.0\Mathematics.dll" />
     <file src="C:\Users\andre\OneDrive\Escritorio\Proyecto\Mathematics\LICENSE" target="\LICENSE" />
-    <file src="C:\Users\andre\OneDrive\Escritorio\Proyecto\Data\README.md" target="\README.md" />
+    <file src="C:\Users\andre\OneDrive\Escritorio\Proyecto\Mathematics\README.md" target="\README.md" />
   </files>
 </package>
