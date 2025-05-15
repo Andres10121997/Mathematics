@@ -14,6 +14,7 @@
     <PackageTags>Mathematics; Statistics</PackageTags>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -23,6 +24,13 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
     <FileAlignment>8192</FileAlignment>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\Data\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <None Update="LICENSE">

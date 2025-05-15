@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Andrés Felipe Sagredo Bromberg")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a4ba568388db857f487d3c6449907b33cbe4655f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dd05c5d62c0ccf4f52f55fdeba1cb2228f1c37b2")]
 [assembly: System.Reflection.AssemblyProductAttribute("Mathematics")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Mathematics")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

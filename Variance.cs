@@ -23,7 +23,7 @@ namespace Mathematics
             #region Variables
             long count;
             TSource average;
-            TAccumulator sum;
+            // TAccumulator sum;
             TAccumulator sumOfSquares;
             TAccumulator variance;
             #endregion
@@ -32,14 +32,14 @@ namespace Mathematics
             {
                 throw new ArgumentNullException(paramName: nameof(source));
             }
-
+            
             count = 0;
-            sum = TAccumulator.Zero;
-
+            // sum = TAccumulator.Zero;
+            
             // Primera pasada: calcular suma y cantidad
             foreach (TSource item in source)
             {
-                sum += TAccumulator.CreateChecked(value: item);
+                // sum += TAccumulator.CreateChecked(value: item);
 
                 count++;
             }
@@ -49,7 +49,9 @@ namespace Mathematics
                 throw new InvalidOperationException(message: "Sequence contains no elements.");
             }
 
-            average = TSource.CreateChecked(value: sum) / TSource.CreateChecked((TAccumulator)TAccumulator.CreateChecked(value: count));
+            // average = TSource.CreateChecked(value: sum) / TSource.CreateChecked((TAccumulator)TAccumulator.CreateChecked(value: count));
+            
+            average = Average<TSource, TSource>(source);
 
             // Segunda pasada: calcular suma de cuadrados
             sumOfSquares = TAccumulator.Zero;
