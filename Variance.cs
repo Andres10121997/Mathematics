@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Numerics;
 
 namespace Mathematics
@@ -21,9 +22,7 @@ namespace Mathematics
             where TResult : struct, INumber<TResult>
         {
             #region Variables
-            long count;
             TSource average;
-            // TAccumulator sum;
             TAccumulator sumOfSquares;
             TAccumulator variance;
             #endregion
@@ -33,27 +32,8 @@ namespace Mathematics
                 throw new ArgumentNullException(paramName: nameof(source));
             }
             
-            count = 0;
-            // sum = TAccumulator.Zero;
-            
-            // Primera pasada: calcular suma y cantidad
-            foreach (TSource item in source)
-            {
-                // sum += TAccumulator.CreateChecked(value: item);
-
-                count++;
-            }
-
-            if (count == 0)
-            {
-                throw new InvalidOperationException(message: "Sequence contains no elements.");
-            }
-
-            // average = TSource.CreateChecked(value: sum) / TSource.CreateChecked((TAccumulator)TAccumulator.CreateChecked(value: count));
-            
             average = Average<TSource, TSource>(source);
 
-            // Segunda pasada: calcular suma de cuadrados
             sumOfSquares = TAccumulator.Zero;
 
             foreach (TSource item in source)
@@ -63,7 +43,7 @@ namespace Mathematics
                 sumOfSquares += diff * diff;
             }
 
-            variance = sumOfSquares / TAccumulator.CreateChecked(value: count);
+            variance = sumOfSquares / TAccumulator.CreateChecked(value: source.Count());
 
             return TResult.CreateChecked(value: variance);
         }

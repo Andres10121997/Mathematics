@@ -11,13 +11,13 @@ namespace Mathematics
             where TSource : struct, INumber<TSource>
             where TResult : struct, INumber<TResult>
         {
-            if (source.ToArray().Length <= 0)
+            if (source.Count<TSource>() <= 0)
             {
                 throw new ArgumentException(message: $"La cantidad de elementos de {nameof(source)} debe ser superior a 0",
                                             paramName: nameof(source));
             }
 
-            return TResult.CreateChecked(value: source.Average(selector: x => Convert.ToDouble(value: x)));
+            return TResult.CreateChecked(value: source.Average<TSource>(selector: x => Convert.ToDouble(value: x)));
         }
     }
 }
