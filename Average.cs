@@ -11,36 +11,13 @@ namespace Mathematics
             where TSource : struct, INumber<TSource>
             where TResult : struct, INumber<TResult>
         {
-            #region Variables
-            long count;
-            TSource sum;
-            TResult average;
-            #endregion
-
-            count = 0;
-            sum = TSource.Zero;
-
             if (source.ToArray().Length <= 0)
             {
-                throw new ArgumentException();
+                throw new ArgumentException(message: $"La cantidad de elementos de {nameof(source)} debe ser superior a 0",
+                                            paramName: nameof(source));
             }
 
-            // Primera pasada: calcular suma y cantidad
-            foreach (TSource item in source)
-            {
-                sum += TSource.CreateChecked(value: item);
-
-                count++;
-            }
-
-            if (count == 0)
-            {
-                throw new InvalidOperationException(message: "Sequence contains no elements.");
-            }
-
-            average = TResult.CreateChecked(value: sum) / TResult.CreateChecked((TSource)TSource.CreateChecked(value: count));
-
-            return average;
+            return TResult.CreateChecked(value: source.Average(selector: x => Convert.ToDouble(value: x)));
         }
     }
 }

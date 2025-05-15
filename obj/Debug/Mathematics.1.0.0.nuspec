@@ -11,7 +11,7 @@
     <readme>README.md</readme>
     <description>Package Description</description>
     <tags>Mathematics Statistics</tags>
-    <repository type="git" url="https://github.com/Andres10121997/Mathematics" commit="83fddad256a183d100cb948b3daf1b252a0b36f4" />
+    <repository type="git" url="https://github.com/Andres10121997/Mathematics" commit="c44d152c586d08e1bee3f0822303c753719d8610" />
     <dependencies>
       <group targetFramework="net9.0" />
     </dependencies>
